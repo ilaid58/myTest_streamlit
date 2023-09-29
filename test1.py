@@ -6,6 +6,6 @@ b = st.text_input('enter n2 ')
 
 if st.button('valid'):
 	a = int(a.title())
-	b = int(a.title())
+	b = int(b.title())
 	st.write(a, '+', b, '=', a+b)
 
