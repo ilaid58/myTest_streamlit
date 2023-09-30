@@ -11,6 +11,6 @@ if st.button('valid'):
 
 upload_file = st.file_uploader('upload a file')
 data = upload_file.getvalue()
-name = upload_file.name()
+name = upload_file.name
 st.write('filename', name)
 st.write(data)
