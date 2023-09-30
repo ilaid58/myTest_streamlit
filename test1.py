@@ -9,3 +9,8 @@ if st.button('valid'):
 	b = int(b.title())
 	st.write(a, '+', b, '=', a+b)
 
+upload_file = st.file_uploader('upload a file')
+data = upload_file.read()
+name = upload_file.name()
+st.write('filename', name)
+st.write(data)
