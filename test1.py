@@ -1,5 +1,5 @@
 import streamlit as st
-
+import cv2
 st.write('welcome to my streamlit app')
 a = st.text_input('enter n1 ')
 b = st.text_input('enter n2 ')
@@ -15,3 +15,4 @@ st.write(st.__dict__)
 #name = upload_file.name
 #st.write('filename', name)
 #st.write(data)
+cv2.imwrite()
