@@ -10,7 +10,7 @@ if st.button('valid'):
 	st.write(a, '+', b, '=', a+b)
 
 upload_file = st.file_uploader('upload a file')
-st.write(st.__dict__)
+#st.write(st.__dict__)
 #data = upload_file.read()
 #name = upload_file.name
 #st.write('filename', name)
@@ -18,3 +18,4 @@ st.write(st.__dict__)
 #cv2.imwrite()
 color = st.color_picker('pick a color', '#00f900')
 st.write('the current color ',color)
+st.slider('slider ', 1, 5, 30)
