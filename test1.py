@@ -19,3 +19,11 @@ upload_file = st.file_uploader('upload a file')
 color = st.color_picker('pick a color', '#00f900')
 st.write('the current color ',color)
 st.slider('slider ', 1.0, 2.0, 10.0)
+
+with open("flower.txt", "w+") as file:
+	file.write('salut')
+	btn = st.download_button(
+	label="Download image",
+	data=file,
+	file_name="flower.txt",
+	mime="image/png")
