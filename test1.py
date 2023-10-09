@@ -27,6 +27,6 @@ with open("flower.txt", "w+") as file:
 	data=file,
 	file_name="flower.txt",
 	mime="image/png")
-opt = st.select_box('select option', ['a', 'b', 'c'])
+opt = st.selectbox('select option', ['a', 'b', 'c'])
 st.write(opt)
 
