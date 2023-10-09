@@ -27,3 +27,6 @@ with open("flower.txt", "w+") as file:
 	data=file,
 	file_name="flower.txt",
 	mime="image/png")
+opt = st.multiselect('select option', ['a', 'b', 'c'])
+st.write(opt)
+
